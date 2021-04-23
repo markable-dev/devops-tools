@@ -22,7 +22,7 @@
             ```bash
             VERSION=v3.5.4
             curl -LO https://get.helm.sh/helm-${VERSION}-darwin-amd64.tar.gz
-            tar -zxf ./helm-v3.5.4-darwin-amd64.tar.gz
+            tar -zxf ./helm-${VERSION}-darwin-amd64.tar.gz
             mv darwin-amd64/helm /usr/local/bin/
             ```
 
@@ -30,16 +30,16 @@
             ```bash
             VERSION=v3.5.4
             curl -LO https://get.helm.sh/helm-${VERSION}-linux-amd64.tar.gz
-            tar -zxf ./helm-v3.5.4-darwin-amd64.tar.gz
+            tar -zxf ./helm-${VERSION}-darwin-amd64.tar.gz
             mv darwin-amd64/helm /usr/local/bin/
             ```
 
         - Windows amd64, git bash
             ```bash
-            # 以下命令纯属瞎编，没有实测过
+            # 以下命令纯属瞎编，没有实测过（建议使用 wsl，手动狗头）
             VERSION=v3.5.4
             curl -LO https://get.helm.sh/helm-${VERSION}-windows-amd64.zip
-            unzip ./helm-v3.5.4-darwin-amd64.tar.gz
+            unzip ./helm-${VERSION}-darwin-amd64.tar.gz
             mv darwin-amd64/helm </path/to/bin/>
             ```
 
